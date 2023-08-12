@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/ginnygao/Projects/streamlit_app"
+VIRTUAL_ENV="/Users/ginnygao/Projects/uber-pickups"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,7 +54,7 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(streamlit_app) ${PS1:-}"
+    PS1="(uber-pickups) ${PS1:-}"
     export PS1
 fi
 
